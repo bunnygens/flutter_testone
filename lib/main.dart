@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
         title: const Text("Tesla Corp"),
       ),
       body: const Center(
-        child: Text('Home page'),
+        child: Text('Home page changed'),
       ),
     );
   }
