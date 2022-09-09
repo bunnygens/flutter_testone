@@ -33,8 +33,21 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.green[700],
         title: const Text("Tesla Corp"),
       ),
-      body: const Center(
-        child: Text('Home page changed'),
+      body: Column(
+        children: const <Widget>[
+          Expanded(
+            child: Text('Deliver features faster', textAlign: TextAlign.center),
+          ),
+          Expanded(
+            child: Text('Craft beautiful UIs', textAlign: TextAlign.center),
+          ),
+          Expanded(
+            child: Text('Second', textAlign: TextAlign.center),
+          ),
+          Expanded(
+            child: Text('This time done', textAlign: TextAlign.center),
+          ),
+        ],
       ),
     );
   }
